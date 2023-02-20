@@ -4,7 +4,7 @@ dir="<<path of backup file>>"
 logfile="/var/log/backup/log-$date.txt"
 touch $logfile
 ##Replace with the specified namespace
-namespace=apollo
+namespace=<<your namespace>>
 set +x
 declare -a arr=("configmap" "deployment" "ingress" "secret" "service")
 
